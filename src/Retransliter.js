@@ -1,6 +1,6 @@
 export default class Retransliter {
   constructor(translitedText) {
-    this.translitedText = translitedText
+    this.translitedText = translitedText.toLowerCase()
   }
 
   replaceChars(char) {
